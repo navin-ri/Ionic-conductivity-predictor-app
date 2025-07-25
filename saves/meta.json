@@ -1,0 +1,18 @@
+{
+    "input_dim": 145,
+    "output_dim": 12,
+    "target_names": [
+        "band_gap_x",
+        "formation_energy_per_atom_x",
+        "mean Voro_index_10",
+        "std_dev Voro_dist_mean",
+        "mean Voro_dist_maximum",
+        "std_dev Voro_dist_maximum",
+        "density_x",
+        "vpa",
+        "E_1D",
+        "E_2D",
+        "E_3D",
+        "em_mean"
+    ]
+}
