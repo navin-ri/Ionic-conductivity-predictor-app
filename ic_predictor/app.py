@@ -165,8 +165,8 @@ class ICPredApp:
         return ic_pred_df
 
 if __name__ == "__main__":
-    root = "/Users/navin/Library/CloudStorage/Dropbox-AIZOTH/研究/Navin/ic_pred_app"
-    user_input_df = pd.read_csv("/Users/navin/Library/CloudStorage/Dropbox-AIZOTH/研究/Navin/ic_pred_app/test/test.csv")
+    root = "root"
+    user_input_df = pd.read_csv("/test/test.csv")
     app = ICPredApp(root)
     prediction = app.predict(user_input_df)
     print(prediction)
